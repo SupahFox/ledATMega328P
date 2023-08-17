@@ -1,7 +1,7 @@
-;
 ; main.asm
 ;
 ; Created: 31/8/2021 15:27:54
+; Edited: 17/08/2023 20:40:00
 ; Author : Administrador, SupahFox
 ;
 .include "./m328Pdef.inc"
@@ -10,7 +10,7 @@
 
 setup: ; configuro los puerto y pongo valores incinales
 
-ldi r16,0b00111100 ; Acá le asigno el valor en binario a r16 para saber donde están los pines del led
+ldi r16,0b00111100 ; Acï¿½ le asigno el valor en binario a r16 para saber donde estï¿½n los pines del led
 				   ; Los 1 (de izquierda a derecha) son pb2, pb3, pb4, pb5
 
 out DDRB,r16 ; Le paso la variable de r16 a DDRB
